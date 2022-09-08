@@ -125,5 +125,5 @@ removingProductFromCartContainingMultipleAndDifferentProductsReturns200() {
 		.statusCode(200);
 
 
-}
+     }
 }
