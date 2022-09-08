@@ -41,7 +41,7 @@ public class ShoppingCartTest {
 
 				ProductNotFoundInCatalogException.class,
 
-				() -> this.cartService.addProduct(9999, 10)
+				() -> this.cartService.addProduct(1, 10)
 
 				);
 
